@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="115.080">
+    <properties></properties>
+
+
+
+            <testcase
+                name="loginFieldValidationTest"
+                time="11.453"
+                classname="test.automation.LoginLogoutFunctionalityTest">
+            </testcase>
+            <testcase
+                name="invalidPasswordTest"
+                time="17.468"
+                classname="test.automation.LoginLogoutFunctionalityTest">
+            </testcase>
+            <testcase
+                name="loginPasswordFieldValidationTest"
+                time="11.203"
+                classname="test.automation.LoginLogoutFunctionalityTest">
+            </testcase>
+            <testcase
+                name="invalidNonExistingUsernameTest"
+                time="26.756"
+                classname="test.automation.LoginLogoutFunctionalityTest">
+            </testcase>
+            <testcase
+                name="passwordFieldValidationTest"
+                time="9.379"
+                classname="test.automation.LoginLogoutFunctionalityTest">
+            </testcase>
+            <testcase
+                name="successfulLoginThenLogoutTest"
+                time="38.821"
+                classname="test.automation.LoginLogoutFunctionalityTest">
+            </testcase>
+</testsuite>

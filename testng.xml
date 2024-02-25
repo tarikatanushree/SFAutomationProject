@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SFFunctionalitiesTest">
+    <listeners>
+        <listener class-name = "MyTestListener" />
+    </listeners>
+    <test verbose="10" preserve-order="true" name="Login">
+        <classes>
+            <class name="test.automation.LoginLogoutFunctionalityTest" />
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Search">
+        <classes>
+        <class name="test.automation.SearchFunctionalityTest" />
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Account">
+    <classes>
+        <class name="test.automation.AccountAndContactsTest" />
+    </classes>
+    </test>
+
+</suite>
